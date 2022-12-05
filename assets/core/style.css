@@ -1,0 +1,195 @@
+/* .navbar, .navbar .navbar-brand-wrapper, .navbar .navbar-menu-wrapper{
+	background-color: #20b2c9;
+} */
+
+.note-modal-footer .note-btn{
+	float: inherit !important;
+}
+.note-modal-footer{
+	height: auto !important;
+}
+.note-editor .note-toolbar .note-dropdown-menu, .note-popover .popover-content .note-dropdown-menu{
+	min-width: 250px !important;
+}
+.note-btn{
+	font-size: 11px !important;
+	line-height: initial !important;
+	padding: 3px 5px !important;
+}
+.note-btn-group > .dropdown-toggle::after{
+	display: none !important;
+}
+.note-editable{
+	background-color: #fff;
+}
+
+select.form-control{
+	background-color: initial !important;
+	color: initial !important;
+}
+span.selection > .select2-selection.select2-selection--single{
+	padding: .1rem .75rem !important;
+	background-color: initial !important;
+	color: initial !important;
+	height: 2rem;
+}
+
+.modal .modal-dialog .modal-content .modal-header{
+	padding: 1rem 26px;
+}
+.modal .modal-dialog .modal-content .modal-body{
+	padding: 1rem 26px;
+}
+.modal-header h5{
+	font-size: 1.25rem !important;
+}
+.btn-close{
+	font-size: small;
+}
+
+.dataTables_wrapper .dataTable .btn i{
+	margin-right: unset;
+}
+.dataTables_wrapper .dataTable .btn{
+	padding: 0.5rem;
+	margin: 0rem 0.1rem;
+}
+.btn-primary, .page-item.active .page-link{
+	background-color: #1EAAB9 !important;
+	border-color: #0096A6;
+}
+.btn-primary:hover, .btn-primary:focus{
+	border-color: #0096A6; 
+}
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .welcome-text{
+	color: #8EC54B;
+}
+.text-primary{
+	color: #1EAAB9 !important;
+}
+.text-success{
+	color: #8EC54B !important;
+}
+.btn-success{
+	background-color: #8EC54B;
+	border-color: unset;
+}
+.btn-success:hover, .btn-success:focus{
+	background-color: #77D00B;
+	border-color: #60AE00;
+}
+
+.form-login input::-webkit-input-placeholder{ /* WebKit, Blink, Edge */
+    color: #b5d98a;
+}
+.form-login input:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+   color: #b5d98a;
+   opacity: 1;
+}
+.form-login input::-moz-placeholder{ /* Mozilla Firefox 19+ */
+   color: #b5d98a;
+   opacity: 1;
+}
+.form-login input:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+   color: #b5d98a;
+}
+.form-login input::-ms-input-placeholder{ /* Microsoft Edge */
+   color: #b5d98a;
+}
+.form-login input::placeholder{ /* Most modern browsers support this now. */
+   color: #b5d98a;
+}
+.form-login .form-control{
+	border-color: #d6ecbc;
+}
+.form-login select.form-control{
+	outline: 1px solid #d6ecbc;
+}
+
+.form-control[type="file"]{
+	padding: 0.5rem 1.375rem !important;
+	background-color: #fff !important;
+}
+
+.shadow{
+	box-shadow: 0 0 0 0 rgba(90, 113, 208, 0.11), 0 4px 16px 0 rgba(167, 175, 183, 0.33)
+}
+
+/*loading animation*/
+.loaderScreen-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  opacity:0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+.label-custom{
+  color: #1EAAB9;
+  font-weight: bold;
+}
+
+input.form-control[type="date"] {
+  padding: 0 1.375rem;
+}
