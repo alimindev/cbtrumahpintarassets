@@ -1,0 +1,30 @@
+.container-circle {
+    margin: auto;
+}
+
+.box {
+    margin: auto;
+    /* outline: dashed 1px black; */
+}
+
+.chart-mapel canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+.centered-element {
+    text-align: center;
+}
+
+.box h4 {
+    text-align: center;
+}
+
+.box .chart-mapel {
+    margin: 0 auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
