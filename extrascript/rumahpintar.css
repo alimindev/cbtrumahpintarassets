@@ -1,0 +1,17 @@
+.color1 {
+    color: #C9EAF3;
+}
+
+.color2 {
+    color: #1EAAB9;
+}
+
+.color3 {
+    color: #8EC54B;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 250px;
+    overflow: auto;
+}
